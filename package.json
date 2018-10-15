@@ -1,0 +1,56 @@
+{
+  "name": "onm.io",
+  "version": "0.0.1",
+  "description": "Operations and Maintenance Tracking App",
+  "main": "index.js",
+  "scripts": {
+    "dev-front": "node server/index.js",
+    "dev-back": "nodemon server/index.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davydhong/onm.io.git"
+  },
+  "keywords": [
+    "infrastructure",
+    "operation",
+    "maintenance",
+    "equipment"
+  ],
+  "author": "David Hong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davydhong/onm.io/issues"
+  },
+  "homepage": "https://github.com/davydhong/onm.io#readme",
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.2.0",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.4",
+    "compression": "^1.7.3",
+    "compression-webpack-plugin": "^2.0.0",
+    "console-stamp": "^0.2.7",
+    "cors": "^2.8.4",
+    "css-loader": "^1.0.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "pg": "^7.5.0",
+    "postcss-loader": "^3.0.0",
+    "precss": "^3.1.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "svg-inline-loader": "^0.8.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-middleware": "^3.4.0",
+    "webpack-hot-middleware": "^2.23.1",
+    "webpack-merge": "^4.1.4"
+  }
+}
